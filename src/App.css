@@ -1,0 +1,41 @@
+#root {
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+
+.logo {
+  height: 2em;
+  margin: 1em;
+}
+
+.section {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  scroll-snap-align: start;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.container {
+  height: 100vh;
+  width: 100vw;
+  overflow-y: scroll;
+  scroll-snap-type: y mandatory;
+}
+
+.header-section {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  scroll-snap-align: start;
+  width: 100%;
+  margin: 0 auto;
+}
+
